@@ -15,6 +15,11 @@
 - **Date Range**: March 13, 2024, to March 20, 2024
 - **Preprocessing**: one-hot encoding for categorical variables, standardization of numeric features, LinearRegression and Gradient Boosting Machine (GBM) with AutoML 
 
+## Intended Use
+- **Primary use**: Predicting real estate prices in Belgium
+- **Users**: Immo Eliza analytics team and agents
+- **Target Audience**: The model is designed to predict prices for customers interested in properties within a specific price range and size criteria, focusing on features such as 'price', 'surface_land_sqm', 'total_area_sqm', and 'nbr_bedrooms'.
+
 ## Evaluation Data
 - **Split**: 80% training / 20% testing
 - **Metrics**:
