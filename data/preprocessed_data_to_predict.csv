@@ -1,0 +1,11 @@
+property_type,subproperty_type,region,province,locality,zip_code,latitude,longitude,construction_year,total_area_sqm,surface_land_sqm,nbr_frontages,nbr_bedrooms,equipped_kitchen,fl_furnished,fl_open_fire,fl_terrace,terrace_sqm,fl_garden,garden_sqm,fl_swimming_pool,fl_floodzone,state_building,primary_energy_consumption_sqm,epc,heating_type,fl_double_glazing,cadastral_income
+APARTMENT,APARTMENT,Flanders,Antwerp,Antwerp,2050,51.2171725,4.3799821,1963.0,100.0,-1.0,2.0,2,INSTALLED,-1.0,-1.0,1.0,5.0,-1.0,0,-1.0,-1.0,missing_info,231.0,C,GAS,1.0,922.0
+HOUSE,HOUSE,Flanders,East Flanders,Gent,9185,51.174944,3.845248,-1.0,-1.0,680.0,-1.0,2,missing_info,-1.0,-1.0,-1.0,0.0,-1.0,0,-1.0,-1.0,missing_info,221.0,C,missing_info,1.0,406.0
+APARTMENT,APARTMENT,Brussels-Capital,Brussels,Brussels,1070,50.8420431,4.3345427,-1.0,142.0,-1.0,2.0,3,INSTALLED,-1.0,-1.0,1.0,-1.0,-1.0,0,-1.0,1.0,AS_NEW,-1.0,missing_info,GAS,-1.0,-1.0
+HOUSE,HOUSE,Flanders,Antwerp,Turnhout,2275,51.2383125,4.8171921,2024.0,187.0,505.0,-1.0,3,missing_info,-1.0,-1.0,-1.0,0.0,-1.0,0,-1.0,1.0,missing_info,99.0,A,missing_info,-1.0,-1.0
+APARTMENT,DUPLEX,Wallonia,Walloon Brabant,Nivelles,1410,-1.0,-1.0,2022.0,169.0,-1.0,2.0,2,HYPER_EQUIPPED,-1.0,-1.0,1.0,20.0,1.0,142,-1.0,-1.0,AS_NEW,19.0,A+,GAS,-1.0,-1.0
+HOUSE,HOUSE,Flanders,Flemish Brabant,Halle-Vilvoorde,1700,-1.0,-1.0,-1.0,187.0,710.0,4.0,3,missing_info,-1.0,-1.0,-1.0,0.0,-1.0,0,-1.0,1.0,AS_NEW,-1.0,missing_info,missing_info,-1.0,-1.0
+APARTMENT,APARTMENT,Wallonia,Walloon Brabant,Nivelles,1420,50.6836074,4.3715129,-1.0,80.0,-1.0,-1.0,1,missing_info,-1.0,-1.0,1.0,11.0,-1.0,0,-1.0,1.0,missing_info,-1.0,missing_info,GAS,1.0,-1.0
+HOUSE,HOUSE,Flanders,East Flanders,Gent,9800,50.9830147,3.5707416,2023.0,155.0,291.0,-1.0,4,HYPER_EQUIPPED,-1.0,-1.0,-1.0,0.0,-1.0,0,-1.0,-1.0,GOOD,-1.0,missing_info,missing_info,1.0,-1.0
+APARTMENT,APARTMENT,Wallonia,LiÃ¨ge,LiÃ¨ge,4000,50.6318255,5.5573521,-1.0,-1.0,-1.0,2.0,2,missing_info,-1.0,-1.0,1.0,-1.0,-1.0,0,-1.0,1.0,missing_info,212.0,C,missing_info,1.0,-1.0
+HOUSE,VILLA,Flanders,West Flanders,Brugge,8300,51.3533226,3.2963532,1935.0,277.0,588.0,-1.0,6,missing_info,-1.0,-1.0,-1.0,0.0,-1.0,0,-1.0,-1.0,TO_RENOVATE,394.0,D,missing_info,-1.0,-1.0

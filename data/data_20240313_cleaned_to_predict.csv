@@ -1,0 +1,11 @@
+property_type,subproperty_type,region,province,locality,zip_code,latitude,longitude,construction_year,total_area_sqm,surface_land_sqm,nbr_frontages,nbr_bedrooms,equipped_kitchen,fl_furnished,fl_open_fire,fl_terrace,terrace_sqm,fl_garden,garden_sqm,fl_swimming_pool,fl_floodzone,state_building,primary_energy_consumption_sqm,epc,heating_type,fl_double_glazing,cadastral_income
+APARTMENT,APARTMENT,Flanders,Antwerp,Antwerp,2050,51.2171725,4.3799821,1963,100,nan,2,2,INSTALLED,nan,nan,1.0,5,nan,0,nan,nan,MISSING,231,C,GAS,1.0,922
+HOUSE,HOUSE,Flanders,East Flanders,Gent,9185,51.174944,3.845248,nan,nan,680,nan,2,MISSING,nan,nan,nan,0,nan,0,nan,nan,MISSING,221,C,MISSING,1.0,406
+APARTMENT,APARTMENT,Brussels-Capital,Brussels,Brussels,1070,50.8420431,4.3345427,nan,142,nan,2,3,INSTALLED,nan,nan,1.0,nan,nan,0,nan,1.0,AS_NEW,nan,MISSING,GAS,nan,nan
+HOUSE,HOUSE,Flanders,Antwerp,Turnhout,2275,51.2383125,4.8171921,2024,187,505,nan,3,MISSING,nan,nan,nan,0,nan,0,nan,1.0,MISSING,99,A,MISSING,nan,nan
+APARTMENT,DUPLEX,Wallonia,Walloon Brabant,Nivelles,1410,nan,nan,2022,169,nan,2,2,HYPER_EQUIPPED,nan,nan,1.0,20,1.0,142,nan,nan,AS_NEW,19,A+,GAS,nan,nan
+HOUSE,HOUSE,Flanders,Flemish Brabant,Halle-Vilvoorde,1700,nan,nan,nan,187,710,4,3,MISSING,nan,nan,nan,0,nan,0,nan,1.0,AS_NEW,nan,MISSING,MISSING,nan,nan
+APARTMENT,APARTMENT,Wallonia,Walloon Brabant,Nivelles,1420,50.6836074,4.3715129,nan,80,nan,nan,1,MISSING,nan,nan,1.0,11,nan,0,nan,1.0,MISSING,nan,MISSING,GAS,1.0,nan
+HOUSE,HOUSE,Flanders,East Flanders,Gent,9800,50.9830147,3.5707416,2023,155,291,nan,4,HYPER_EQUIPPED,nan,nan,nan,0,nan,0,nan,nan,GOOD,nan,MISSING,MISSING,1.0,nan
+APARTMENT,APARTMENT,Wallonia,LiÃ¨ge,LiÃ¨ge,4000,50.6318255,5.5573521,nan,nan,nan,2,2,MISSING,nan,nan,1.0,nan,nan,0,nan,1.0,MISSING,212,C,MISSING,1.0,nan
+HOUSE,VILLA,Flanders,West Flanders,Brugge,8300,51.3533226,3.2963532,1935,277,588,nan,6,MISSING,nan,nan,nan,0,nan,0,nan,nan,TO_RENOVATE,394,D,MISSING,nan,nan
