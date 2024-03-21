@@ -1,4 +1,4 @@
-# 🏡 Immo Eliza Real Estate Price Prediction Readme
+# 🏡 Immo Eliza Real Estate Price Prediction
 
 This repository contains the Immo Eliza Price Prediction Model, designed to predict real estate prices in Belgium. It integrates various machine learning algorithms, including GBM from H2O's AutoML.
 
