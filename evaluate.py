@@ -7,11 +7,8 @@ def evaluate_model(test_data_path, target):
         # Initialize H2O
         h2o.init()
 
-        # Read the saved best model path
-        with open('model_path.txt', 'r') as f:
-            model_path = f.read().strip()
-
-        # Load the saved model
+        # Load the specific model
+        model_path = 'models/automl_model/GBM_4_AutoML_2_20240321_133555'
         loaded_model = h2o.load_model(model_path)
 
         # Load the test data

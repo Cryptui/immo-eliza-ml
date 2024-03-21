@@ -66,4 +66,3 @@ These metrics provide insights into the model's accuracy, precision, and overall
 - **Versioning**: Different versions of the model are tracked using version control systems like Git.
 - **Monitoring and maintenance**: The model's performance is monitored regularly using metrics such as R-squared, MAE, and RMSE. Any significant deviations from expected performance triggers a review and potential retraining of the model.
 - **Update policy**: The model should be retrained periodically (e.g., every six months or annually) to incorporate new data and ensure its predictions remain accurate and up-to-date. Additionally, updates may be required in response to changes in the real estate market or business requirements.
-

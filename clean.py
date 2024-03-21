@@ -1,4 +1,5 @@
 import pandas as pd
+import logging
 
 def fill_missing_values(df, value=-1, replacements={'Missing': 'missing_info', 'MISSING': 'missing_info'}):
     """
@@ -73,16 +74,21 @@ def clean_data(input_df, features_to_check=['price', 'surface_land_sqm', 'total_
     return df_cleaned, removed_outliers
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     input_path = 'data/data_20240313_cleaned.csv'
     output_path = 'data/data_20240313_modified.csv'
     # Load the data into a DataFrame
-    df_to_clean = pd.read_csv(input_path, decimal=',')
+    try:
+        df_to_clean = pd.read_csv(input_path, decimal=',')
+    except FileNotFoundError:
+        logging.error(f"File not found: {input_path}")
+        exit(1)
     # Clean the data
     cleaned_df, removed_outliers = clean_data(df_to_clean)
     # Save the modified DataFrame to a CSV file
     cleaned_df.to_csv(output_path, index=False)
-    print(f"Modified data saved to: {output_path}")
+    logging.info(f"Modified data saved to: {output_path}")
     # Print the number of outliers removed and new range per variable
     for feature, count in removed_outliers.items():
-        print(f"Outliers removed for {feature}: {count}")
-        print(f"New range for {feature}: {cleaned_df[feature].min()} - {cleaned_df[feature].max()}")
+        logging.info(f"Outliers removed for {feature}: {count}")
+        logging.info(f"New range for {feature}: {cleaned_df[feature].min()} - {cleaned_df[feature].max()}")

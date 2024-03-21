@@ -92,6 +92,19 @@ The model's predictions are based on the current market state and are subject to
 
 For detailed instructions on training the model or making predictions with the provided scripts (`train.py` and `predict.py`), refer to the `USAGE.md`.
 
+To create a new model, follow these steps:
+
+1. **Data Cleaning**: Run the `clean.py` script to preprocess and clean the raw data. This script will handle missing values, remove outliers, and prepare the dataset for training.
+   - python clean.py
+2. **Model Training**: Execute the train.py script to train the model using the preprocessed data. This script will apply machine learning algorithms, such as Linear Regression and Gradient Boosting Machine (GBM), to build the predictive model.
+   - python train.py
+3. **Evaluation**: Run the evaluate.py script to evaluate the performance of the trained model using evaluation metrics such as RMSE, MAE, and R-squared.
+   - python evaluate.py
+4. **Prediction**: Once the model is trained and evaluated, you can use the predict.py script to make predictions on new data. Provide the path to the new dataset as input to generate predictions.
+   - python predict.py --input_path <path_to_new_data.csv>
+   - Make sure to replace <path_to_new_data.csv> with the actual path to your new dataset.
+
+
 ## Maintainers 👷‍♂️ <a name="maintainers"></a>
 
 Questions or updates contact [Cryptui](https://github.com/Cryptui).

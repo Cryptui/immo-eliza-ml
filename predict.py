@@ -58,8 +58,19 @@ def predict_prices(model, preprocessed_data, output_path):
         # Make predictions
         predictions = model.predict(preprocessed_hf)
         
-        # Add predictions to the original data
-        preprocessed_data['predicted_price'] = predictions.as_data_frame().values.flatten()
+        # Extract predicted values as numpy array
+        predicted_values = predictions.as_data_frame().values.flatten()
+        
+        # Round predicted values to the nearest integer
+        rounded_predictions = [round(value) for value in predicted_values]
+        
+        # Add rounded predictions to the original data
+        preprocessed_data.insert(0, 'predicted_price', rounded_predictions)
+        
+        # Reorder columns to have predicted_price as the first column
+        columns = preprocessed_data.columns.tolist()
+        columns = ['predicted_price'] + [col for col in columns if col != 'predicted_price']
+        preprocessed_data = preprocessed_data[columns]
         
         # Output the predictions to a CSV file
         preprocessed_data.to_csv(output_path, index=False)
@@ -73,11 +84,11 @@ if __name__ == "__main__":
     initialize_h2o()
 
     # Load the saved model
-    model_path = 'models/automl_model/GBM_4_AutoML_4_20240320_141321'
+    model_path = 'models/automl_model/GBM_4_AutoML_2_20240321_133555'
     model = load_model(model_path)
 
     # Path to new data
-    data_to_predict_path = 'data/data_20240313_cleaned_to_predict.csv'
+    data_to_predict_path = 'data/data_to_predict.csv'
 
     # Preprocess the new data for prediction
     preprocessed_data = preprocess_data_for_prediction(data_to_predict_path)
