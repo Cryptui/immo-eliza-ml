@@ -1,4 +1,4 @@
-# Model Card for Immo Eliza Price Prediction Model
+# 🏡 Immo Eliza Real Estate Price Prediction Model Card
 
 ## Model Details
 - **Model name**: `Immo-Eliza-Price-Prediction`
@@ -6,7 +6,7 @@
 - **Model type**: LinearRegression and Gradient Boosting Machine (GBM) with AutoML 
 - **Model framework**: H2O, scikit-learn
 - **Date**: March 20, 2024
-- **Developers**: Me
+- **Developers**: Cryptui
 
 ## Model Objective
 - **Purpose**: The purpose of this model is to predict real estate prices in Belgium based on various property characteristics. It was created as part of a request from the real estate company Immo Eliza.
@@ -36,8 +36,8 @@ The model's performance was evaluated using the following metrics:
 
 | Metric                 | Value             |
 |------------------------|-------------------|
-| Mean Squared Error (MSE) | 2952608966.817194 |
-| Root Mean Squared Error (RMSE) | 54337.914634417044 |
+| Mean Squared Error (MSE) | 2952608966 |
+| Root Mean Squared Error (RMSE) | 54338 |
 | Mean Absolute Error (MAE) | €37062 |
 | R-squared (R2)         | 0.821             |
 
